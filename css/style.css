@@ -73,7 +73,6 @@ main{
 /* footer */
 
 footer{
-    height: 60px;
     width: 100%;
     background-color: #282828;
     position: fixed;
@@ -85,12 +84,12 @@ footer{
 .footer_flex{
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 } 
 
-.left{
+.footer_left {
     width: 25%;
-    height: 100%;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -118,25 +117,89 @@ p:first-child{
     padding-left: 5px;
 }
 
-p {
+.footer_left_description p {
     font-size: 8px;
     color: #818181;
     padding-left: 5px;
 }
 
-.icons{
-    width: 25%;
+.footer_left_icons i {
+    color: white;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.footer_left_icons {
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center; 
+} 
+
+.footer_center {
+    width: 50%;    
+}
+
+.footer_center_upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer_center_upper i{
+    margin: 0 10px;
+    color: white;
+    font-size: 20px;
+}
+
+
+#circle_play{
+    font-size: 30px;
+}
+
+
+.footer_center_lower{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer_center_lower span{
+    color: white;
+}
+
+.footer_time_design{
+    background-color: #5a5a5a;
+    height: 5px;
+    width: 80%;
+    border-radius: 2px;
+    margin-top: 7px;
+}
+
+.footer_time_design div{
+    background-color: #c1c1c1;
+    width: 30%;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.footer_right {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
-/* .fa-light.fa-heart{
-    width: 25%;
-    height: 100%;
-} */
+.footer_right i{
+    margin: 0 10px;
+    color: white;
+}
 
 /* /footer */
 
