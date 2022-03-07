@@ -66,5 +66,10 @@ footer{
     justify-content: space-between;
 }
 
+.image {
+    width: 10px;
+    height: 10px;
+}
+
 /* /footer */
 
