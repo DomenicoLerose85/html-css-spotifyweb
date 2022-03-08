@@ -91,7 +91,7 @@ aside{
 .aside_download{
     width: 70%;
     height: 100px;
-    margin-top: -145px;
+    margin-top: -140px;
 }
 
 /* .aside_download_top span{
@@ -109,7 +109,13 @@ aside{
 }
 
 .aside_download_bottom{
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+.aside_download_bottom img{
+    background-color: grey;
+    border-radius: 50%;
+    font-size: 20px;
 }
 
 .aside_download_bottom span{
