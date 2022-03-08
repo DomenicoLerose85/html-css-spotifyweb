@@ -8,7 +8,7 @@
 .debug{
     border: 1px solid black;
 }
-body{
+html{
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -31,6 +31,28 @@ header{
     width: 100%;
     height: 60px;
     background-color: #080b12;
+}
+
+.flex_header{ 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+button{
+    width: 18%;
+    height: 35px;
+    margin-right: 20px;
+    background-color: #080b12;
+    border: 1px solid #ffffff;
+    border-radius: 18px 18px 18px 18px;
+    color: #ffffff;
+    opacity: 1.5;
+    font-size: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* /header */
@@ -109,7 +131,7 @@ img.footer_img {
     padding-left: 5px;   
 }
 
-p:first-child{
+.footer_left_description span{
     color: white;
     font-size: 12px;
     padding-top: 10px;
@@ -125,8 +147,8 @@ p:first-child{
 
 .footer_left_icons i {
     color: white;
-    margin-left: 20px;
-    font-size: 12px;
+    margin-left: 23px;
+    font-size: 11px;
 }
 
 .footer_left_icons {
@@ -152,7 +174,7 @@ p:first-child{
 .footer_center_upper i{
     margin: 0 10px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -171,14 +193,16 @@ p:first-child{
 
 .footer_center_lower span{
     color: white;
+    font-size: 10px;
+    font-weight: bolder;
 }
 
 .footer_time_design{
     background-color: #5a5a5a;
     height: 5px;
-    width: 80%;
+    width: 70%;
     border-radius: 2px;
-    margin-top: 7px;
+    margin-top: 3px;
 }
 
 .footer_time_design div{
@@ -197,9 +221,11 @@ p:first-child{
 }
 
 .footer_right i{
-    margin: 0 10px;
+    margin: 0 12px;
     color: white;
 }
-
 /* /footer */
+
+/* footer_mediaquery */
+/* /footer_mediaquery */
 
