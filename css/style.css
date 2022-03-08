@@ -8,6 +8,11 @@
 .debug{
     border: 1px solid black;
 }
+
+body{
+    scroll-behavior: smooth;
+}
+
 html{
     font-family: 'Montserrat', sans-serif; 
 }
@@ -17,10 +22,9 @@ html{
 aside{
     width: 180px;
     background-color: black;
-    height: 104vh;
     z-index: 1;
     margin-top: -80px;
-
+    overflow-y: scroll;
 }
 
 .logo{
@@ -52,6 +56,68 @@ aside{
     list-style: none;
 }
 
+.playlist {
+    width: 70%;
+    margin-top: 5px;
+    margin-bottom: 300px;
+}
+
+.playlist li{
+    margin: 15px 0px;
+    color: rgb(82, 82, 82);
+    list-style: none;
+    font-size: 12px;
+}
+
+.playlist h3{
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.playlist span, .aside_download_top span {
+    color: rgb(82, 82, 82);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.ri-add-box-fill{
+    font-size: 40px;
+    vertical-align: middle;
+    font-weight: 900;
+    margin-left: -5px;
+}
+
+.aside_download{
+    width: 70%;
+    height: 100px;
+    margin-top: -145px;
+}
+
+/* .aside_download_top span{
+    color: rgb(82, 82, 82);
+} */
+
+.aside_download div img{
+    width: 15px;
+    vertical-align: middle;
+}
+
+.aside_download_top{
+    border-bottom: 1px solid rgb(82, 82, 82);
+    padding-bottom: 3px;
+}
+
+.aside_download_bottom{
+    margin-top: 5px;
+}
+
+.aside_download_bottom span{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
 
 
 /* /aside */
@@ -71,7 +137,7 @@ header{
 }
 
 button{
-    width: 18%;
+    width: 17%;
     height: 35px;
     margin-right: 15px;
     background-color: #080b12;
@@ -89,7 +155,6 @@ button{
 .flex_aside{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: start;
     align-items: center;
 }
@@ -107,15 +172,17 @@ button{
 
 main{
     width: calc(100% - 180px);
-    height:  calc (100vh - 15%);
+    height:  calc (100vh - 13%);
     background-color: #141922;
     padding: 10px;
+
 }
 
 .top_nav{
     width: 100%;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
+    margin-left: 30px;
 }
 
 .top_nav ul li{
@@ -145,7 +212,7 @@ main{
 
 footer{
     width: 100%;
-    height: 15%;
+    height: 13%;
     background-color: #282828;
     position: fixed;
     bottom: 0;
@@ -235,7 +302,7 @@ img.footer_img {
 
 .footer_center_lower{
     width: 100%;
-    padding: 10px;
+    padding: 6px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -243,8 +310,8 @@ img.footer_img {
 
 .footer_center_lower span{
     color: white;
-    font-size: 10px;
-    font-weight: bolder;
+    font-size: 8px;
+    font-weight: 900;
     margin: 0 30px;
 }
 
