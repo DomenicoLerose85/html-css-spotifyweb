@@ -193,9 +193,45 @@ main{
     font-weight: 600;
 }
 
+/* main boxes */
+
+.top_row_boxes{
+    width: 90%;
+    height: 300px;
+    margin-bottom: 385px;
+    margin-left: 20px;
+}
+.top_box_description h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bottom_box_desscription{
+    width: 20%;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.bottom_box_desscription h2{
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.bottom_box_desscription p{
+    color: #5a5a5a;
+    font-size: 12px;
+    font-weight: bolder;
+    
+
+}
+
 .box{
-    width: 30%;
-    height: 195px;   
+    width: 18%;
+    height: 168px;   
 } 
 
 .box img{
@@ -203,6 +239,8 @@ main{
     width: 100%;
     height: 100%;
 }
+
+/* /main boxes */
 
 
 /* /main */
