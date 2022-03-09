@@ -94,10 +94,6 @@ aside{
     margin-top: -140px;
 }
 
-/* .aside_download_top span{
-    color: rgb(82, 82, 82);
-} */
-
 .aside_download div img{
     width: 15px;
     vertical-align: middle;
@@ -123,8 +119,6 @@ aside{
     font-size: 12px;
     font-weight: 700;
 }
-
-
 
 /* /aside */
 
@@ -164,7 +158,6 @@ button{
     justify-content: start;
     align-items: center;
 }
-
 
 /* /header */
 
