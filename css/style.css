@@ -234,7 +234,10 @@ main{
 
 .box{
     width: 18%;
-    height: 168px;   
+    height: 168px;  
+    /* display: flex;
+    justify-content: center;  */
+
 } 
 
 .box img{
