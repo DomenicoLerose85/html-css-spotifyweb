@@ -167,7 +167,7 @@ button{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-} 
+}  
 
 main{
     width: calc(100% - 180px);
@@ -193,7 +193,7 @@ main{
     font-weight: 600;
 }
 
-/* main boxes */
+/* main boxes top */
 
 .top_row_boxes_contenitor{
     width: 100%;
@@ -203,15 +203,17 @@ main{
     margin-top: 20px; */
 }
 
-.wrapper_box{
+.wrapper_top_box{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     flex-wrap: wrap;  
     align-items: center;
+    gap: 10px;
+    margin-left: 15px;
 }
 
 .box{
-    width: calc(100% / 6); 
+    width: calc((100% / 6) - 10px); 
     height: 168px;  
 } 
 
@@ -219,7 +221,6 @@ main{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    padding-left: 15px;
 }
 
 .top_box_description h1 {
@@ -231,26 +232,66 @@ main{
 
 .bottom_box_description{
     /* width: 20%;  */
-    padding-top: 15px;  
+    padding-top: 5px;  
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
 }
 
-.box, .bottom_box_desscription h2{
+.box, .bottom_box_description h2{
     color: white;
     font-size: 12px;
     font-weight: bolder;
 }
 
-.bottom_box_desscription, .box p{
+.bottom_box_description, .box p{
     color: #5a5a5a;
     font-size: 10px;
     font-weight: bolder;
-    padding-right: 10px;
+}
+/* /main boxes top */
+
+/* main boxes middle  */
+
+/* .middle_row_boxes_contenitor{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;  
+    align-items: center;
+
 }
 
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+}
 
-/* /main boxes */
+.middle_row_boxes_description h1 {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box, .middle_row_boxes_desscription h2{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.middle_row_boxes_desscription, .box p{
+    color: #5a5a5a;
+    font-size: 10px;
+    font-weight: bolder;
+    /* padding-right: 10px; */
+    padding-left: 15px;
+} */
+
+/* main boxes middle  */
+
 
 
 /* /main */
