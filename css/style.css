@@ -214,7 +214,8 @@ main{
 
 .box{
     width: calc((100% / 6) - 10px); 
-    height: 168px;  
+    height: 168px;
+    text-align: center;  
 } 
 
 .box img{
@@ -231,9 +232,6 @@ main{
 }
 
 .bottom_box_description{
-    /* width: 20%;  */
-    padding-top: 5px;  
-    text-align: center;
     line-height: 20px;
 }
 
@@ -252,45 +250,99 @@ main{
 
 /* main boxes middle  */
 
-/* .middle_row_boxes_contenitor{
-    width: 100%;
+.wrapper_middle_row_boxes{
     display: flex;
     justify-content: start;
     flex-wrap: wrap;  
     align-items: center;
-
+    gap: 10px;
+    margin-left: 15px;
+    
 }
 
-.box img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    padding-left: 15px;
+.middle_row_boxes_contenitor{
+    margin-top: 100px;
 }
 
-.middle_row_boxes_description h1 {
+.middle_row_boxes_contenitor h2{
     color: white;
     padding: 15px;
     font-size: 25px;
     font-weight: bold;
 }
 
-.box, .middle_row_boxes_desscription h2{
-    color: white;
-    font-size: 12px;
-    font-weight: bolder;
-    padding-left: 15px;
+.middle_row_boxes_contenitor p{
+    padding: 15px;
 }
 
-.middle_row_boxes_desscription, .box p{
+.middle_row_boxes_contenitor, .box p{
     color: #5a5a5a;
     font-size: 10px;
     font-weight: bolder;
-    /* padding-right: 10px; */
-    padding-left: 15px;
-} */
+}
 
+.box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* padding-left: 15px; */
+}
+
+
+.box, .middle_row_boxes_description h2{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
 /* main boxes middle  */
+
+/* main boxes bottom */
+
+.bottom_row_boxes_contenitor{
+    margin-top: 50px;
+}
+
+.bottom_row_boxes_contenitor h2{
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.wrapper_bottom_row_boxes{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;  
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;   
+}
+
+.box, .bottom_row_boxes_description h2{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.bottom_row_boxes_contenitor, .box p{
+    color: #5a5a5a;
+    font-size: 10px;
+    font-weight: bolder;
+   
+}
+.bottom_row_boxes_contenitor p{
+    padding: 15px;
+}
+
+.wrapper_bottom_row_boxes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/* /main boxes bottom */
 
 
 
