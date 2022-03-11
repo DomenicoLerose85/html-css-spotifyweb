@@ -4,11 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* debug */
-.debug{
-    border: 1px solid black;
-}
 
+/* general */
 body{
     scroll-behavior: smooth;
 }
@@ -16,6 +13,7 @@ body{
 html{
     font-family: 'Montserrat', sans-serif; 
 }
+/* /general */
 
 /* aside */
 
@@ -117,8 +115,6 @@ aside{
     font-size: 12px;
     font-weight: 700;
 }
-
-
 /* /aside */
 
 /* header */
@@ -157,7 +153,6 @@ button{
     justify-content: start;
     align-items: center;
 }
-
 /* /header */
 
 /* main */
@@ -173,8 +168,6 @@ main{
     height: fit-content;
     background-color: #141922;
     padding: 10px 20px;
-    /* padding: 10px; */
-
 }
 
 .top_nav{
@@ -197,10 +190,6 @@ main{
 
 .top_row_boxes_contenitor{
     width: 100%;
-    /* height: 300px; */
-    /* margin-bottom: 100px;
-    margin-left: 20px;
-    margin-top: 20px; */
 }
 
 .wrapper_top_box{
@@ -210,7 +199,6 @@ main{
     align-items: center;
     gap: 10px;
     margin-left: 15px;
-}
 }
 
 .box{
@@ -260,7 +248,6 @@ main{
     margin-left: 15px;
     margin-top: 15px;
 }
-}
 
 .middle_row_boxes_contenitor{
     margin-top: 100px;
@@ -284,12 +271,8 @@ main{
 }
 
 .box img{
-    /* object-fit: cover; */
     width: 100%;
-    /* height: 100%; */
-    /* padding-left: 15px; */
 }
-
 
 .box, .middle_row_boxes_description h2{
     color: white;
@@ -321,7 +304,6 @@ main{
     margin-left: 15px;   
     margin-top: 15px;
 }
-}
 
 .box, .bottom_row_boxes_description h2{
     color: white;
@@ -341,13 +323,10 @@ main{
 }
 
 .wrapper_bottom_row_boxes img{
-    /* object-fit: cover; */
     width: 100%;
-    /* height: 100%; */
     border-radius: 150px;
 }
 /* /main boxes bottom */
-
 
 /* main mediaquery */
 
@@ -468,11 +447,9 @@ img.footer_img {
     font-size: 16px;
 }
 
-
 #circle_play{
     font-size: 25px;
 }
-
 
 .footer_center_lower{
     width: 100%;
