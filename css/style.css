@@ -211,6 +211,7 @@ main{
     gap: 10px;
     margin-left: 15px;
 }
+}
 
 .box{
     width: calc((100% / 6) - 10px); 
@@ -257,7 +258,8 @@ main{
     align-items: center;
     gap: 10px;
     margin-left: 15px;
-    
+    margin-top: 15px;
+}
 }
 
 .middle_row_boxes_contenitor{
@@ -317,18 +319,20 @@ main{
     align-items: center;
     gap: 10px;
     margin-left: 15px;   
+    margin-top: 15px;
+}
 }
 
 .box, .bottom_row_boxes_description h2{
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bolder;
     text-align: center;
 }
 
 .bottom_row_boxes_contenitor, .box p{
     color: #5a5a5a;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bolder;
    
 }
