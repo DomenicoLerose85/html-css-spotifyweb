@@ -146,6 +146,10 @@ button{
     align-items: center;
     justify-content: space-around;
 }
+button:hover{
+    background-color: white;
+    color: black;
+}
 
 .flex_aside{
     display: flex;
@@ -220,6 +224,10 @@ main{
     font-weight: bold;
 }
 
+.top_box_description h1:hover{
+    text-decoration: underline;
+}
+
 .bottom_box_description{
     line-height: 20px;
 }
@@ -260,6 +268,10 @@ main{
     font-weight: bold;
 }
 
+.middle_row_boxes_contenitor h2:hover{
+    text-decoration: underline;
+}
+
 .middle_row_boxes_contenitor p{
     padding: 10px;
 }
@@ -293,6 +305,10 @@ main{
     padding: 10px;
     font-size: 25px;
     font-weight: bold;
+}
+
+.bottom_row_boxes_contenitor h2:hover{
+    text-decoration: underline;
 }
 
 .wrapper_bottom_row_boxes{
@@ -421,6 +437,11 @@ img.footer_img {
     font-size: 11px;
 }
 
+.footer_left_icons i:active{
+    color: red;
+    font-size: 16px;
+}
+
 .footer_left_icons {
     width: 30%;
     height: 100%;
@@ -451,6 +472,11 @@ img.footer_img {
     font-size: 25px;
 }
 
+#circle_play:hover{
+    font-size: 35px;
+    color: chartreuse;
+}
+
 .footer_center_lower{
     width: 100%;
     padding: 6px;
@@ -479,6 +505,10 @@ img.footer_img {
     width: 30%;
     height: 5px;
     border-radius: 2px;
+}
+
+.footer_time_design div:hover{
+    background-color: lawngreen;
 }
 
 .footer_right {
